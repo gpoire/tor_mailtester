@@ -13,6 +13,7 @@ Warnings :
 - Take single mail or file in input
 - If you use file input, output the result into a file
 - If you don't want to use Tor proxy, comment the line that are referring to TOR proxy
+
 Warning :
 If you do so, the target SMTP server could blacklist your IP
 
