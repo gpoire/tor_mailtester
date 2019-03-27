@@ -5,6 +5,7 @@ Written in python3.7
 ## Informations
 
 - Use Tor proxy and Tor Controller
+
 Warnings : 
 1. Many SMTP server use technology such as Sophos Spam Filtering that block many (all ?) Tor IP.
 2. Before launching the script, verify that you have configured the tor controller (/etc/tor/torrc file) and setup a password (tor --hash-password yourpassword).
@@ -28,4 +29,5 @@ python -f "file_with_mail.txt" -p "tor_controller_password" -o "ouput_file.csv"
 
 
 Note 1 : This simple project was done only for my personnal culture, I'm not responsible for any 
+
 Note 2 : This script could be greatly improved so feel free to improve it.
